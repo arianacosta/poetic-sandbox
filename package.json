@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "poetic:add": "npx ../poetic",
-    "poetic:reset": "git reset --hard"
+    "poetic:reset": "git reset --hard && git clean -fd"
   },
   "license": "MIT"
 }
