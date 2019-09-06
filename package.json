@@ -1,0 +1,11 @@
+{
+  "name": "js-code-style-consumer",
+  "version": "1.0.0",
+  "description": "Companion project to test out the installation and features of Poetic",
+  "main": "index.js",
+  "scripts": {
+    "poetic:add": "npx ../poetic",
+    "poetic:reset": "git reset --hard"
+  },
+  "license": "MIT"
+}
