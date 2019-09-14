@@ -3,10 +3,16 @@ var item = abc; // no-var
 const item = new Object(); // no-new-object
 
 // object-shorthand
-const lukeSkywalker = 'Luke Skywalker';
+const doubleQuotes = "Double Quotes"; // quotes
 
 const obj = {
-  lukeSkywalker: lukeSkywalker,
+  doubleQuotes: doubleQuotes // object-shorthand
 };
 
-const doubleQuotes = "Capt. Janeway${123}"; // quotes
+function myFuncA(num) {
+  return num++; // no-plusplus
+}
+
+const myFuncB = num => {
+  num + 1; // no-unused-expressions
+};
