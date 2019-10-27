@@ -1,3 +1,5 @@
+const path = require("path"); // @typescript-eslint/no-var-requires warn
+
 var item = abc; // no-var
 
 const item = new Object(); // no-new-object
