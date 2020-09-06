@@ -4,9 +4,6 @@ var item = abc; // no-var
 
 const item = new Object(); // no-new-object
 
-// object-shorthand
-const doubleQuotes = "Double Quotes"; // quotes
-
 const obj = {
   doubleQuotes: doubleQuotes // object-shorthand
 };
